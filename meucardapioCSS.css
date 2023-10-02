@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;1,100&family=Chivo:ital,wght@0,100;0,200;1,100;1,200&family=Noto+Sans+JP:wght@100;200&family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Libre+Baskerville:wght@400;700&family=Marcellus&family=Oregano&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Marcellus&family=Oregano&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Lobster+Two&family=Marcellus&family=Oregano&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Lobster+Two&family=Marcellus&family=Oregano&family=Poppins:wght@300;400&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Lobster+Two:ital@0;1&family=Marcellus&family=Oregano&family=Oswald:wght@300;400&family=Poppins:wght@300;400&family=Vidaloka&display=swap');
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 50%;
@@ -11,19 +18,17 @@ h1 {
     text-align: center;
     border-bottom: 3px solid rgb(107, 4, 81);
     margin-bottom: 5px;
+    font-family: 'Marcellus', serif;
 }
 
-p1 {
-    text-align: center;
-    font-size: 25px
-px;
-}
+
 p{
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Marcellus', serif;
 font-size: 25px;
 margin-top: 1px;
 margin-bottom: 1px;
 text-align: center;
+color: #4d0303e7;
 
 }
 
@@ -34,67 +39,23 @@ h2{
     margin-top: 1%;
     margin-bottom: 12px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3{
-    
+    color: #4d0303e7;;
     font-size: 15px; 
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Estilos para dispositivos com tela pequena, como smartphones */
-@media (max-width: 768px) {
-    /* Suas regras de estilo para telas pequenas aqui */
-}
-
-/* Estilos para dispositivos com tela média, como tablets */
-@media (min-width: 769px) and (max-width: 1024px) {
-    /* Suas regras de estilo para telas médias aqui */
-}
-
-/* Estilos para dispositivos com tela grande, como desktops */
-@media (min-width: 1025px) {
-    /* Suas regras de estilo para telas grandes aqui */
-}
-
-
-*/NÃO USAR/*
-ul{
-    padding-left: 0;
-}
-
-li{
-    list-style-position: inside;
-    text-align: left;
-
-}
-
-.fone{
+h4{
+    color: #4d0303e7;;
+    font-size: 15px; 
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.email {
-    text-align: center;
+.midia{
+text-align: center;
 }
-
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-.menu li{
-    list-style: none;
-}
-
-a:link, a:visited {
-    background-color: rgb(240, 172, 253);
-    color: #000000;
-    padding: 3px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-bottom: 1px solid rgb(107, 4, 81);;
-  }
